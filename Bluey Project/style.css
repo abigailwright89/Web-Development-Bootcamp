@@ -1,0 +1,32 @@
+.blueyheader {
+display: block;
+margin-left: auto;
+margin-right: auto; 
+width: 20%;
+
+
+}
+.chartable {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.blueyvid {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+
+th {
+    border:8px solid #5a5a87;
+}
+
+td {
+    border:8px solid #5a5a87;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
