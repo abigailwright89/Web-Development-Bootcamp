@@ -1,0 +1,180 @@
+body {
+background-color: black;
+font-family: 'Harry Potter',sans-serif;
+
+}
+
+
+
+
+.banner {
+background-image: url(/images/banner.jpg);
+background-position: center;
+background-size: cover;
+height: 80vh;
+width: 100%;
+justify-content: center;
+align-items: center;
+display: flex;
+background-repeat: no-repeat;
+margin: auto;
+
+}
+
+.banner-text {
+
+justify-content: center;
+font-size: 50px;
+color: white;
+
+
+
+}
+
+nav {
+    background-color: black;
+    height: 25vh;
+
+
+}
+
+li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+    opacity: 50%;
+    border-radius: 10px;
+
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+        
+}
+
+
+.container {
+    flex: 1 1 0;
+    justify-content: center;
+}
+
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+
+}
+
+.img1  {
+    display: flex;
+    align-self: center;
+    margin-right: auto;
+    margin-left:auto;
+    width: 600px;
+
+}
+.img2 { 
+    padding-top: 70px;
+    display: flex;
+    align-self: center;
+
+    margin-right: auto;
+    margin-left: auto;
+    width: 650px;
+
+
+}
+.img3 {
+    padding-top: 20px;
+    display: flex;
+    align-self: center;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    
+
+}
+
+.container {
+    color: white;
+    display:flex;
+    
+} 
+.danger {
+    text-align: center;
+    padding: 100px
+
+
+}
+.nature {
+   text-align: center;
+   padding: 100px;
+
+}
+
+.chosen-one {
+    text-align: center;
+    padding: 100px;
+    
+
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    border-radius: 5px;
+    padding: 70px;
+    margin: 16px 0;
+    align-items: center;
+
+
+
+}
+.timg {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+
+}
+
+span {
+    font-size: 50px;
+}
+.border{
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 40px
+}
+#harry {
+    padding-left: 75px;
+    padding-right: 75px;
+}
+#rh {
+    padding: 40px
+}
+
+hr {
+    color: white;
+    border: 5px solid white;
+}
+
+.head hr {
+    flex: auto;
+
+
+    
+}
