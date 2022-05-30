@@ -4,18 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Navbar</title>
+    <title>Hogwarts</title>
     <link rel="stylesheet" href="style.css" />
-    <link href="http://fonts.cdnfonts.com/css/harry-potter" rel="stylesheet" />
   </head>
   <body>
     <section class="banner">
-      <div class="banner-text">
-        <h1>Welcome<br />to Hogwarts</h1>
-      </div>
+      <h1 class="banner-text">Welcome<br />to Hogwarts</h1>
     </section>
-    <nav>
-      <ul>
+
+    <nav class="nav-container">
+      <ul class="nav-list">
         <li><a href="#">Home Page</a></li>
         <li><a href="#">Browse</a></li>
         <li><a href="#">About us</a></li>
@@ -24,91 +22,75 @@
       </ul>
     </nav>
 
+    <h1 class="heading1">Why study with us?</h1>
     <div class="container">
-      <div class="row1">
-        <img src="images/horntail.jpg" class="img1" alt="" />
+      <div class="left">
+        <img src="/images/horntail.jpg" alt="horntail" class="img" />
 
-        <div class="nature">
-          <h1>Nature!</h1>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit,
-            temporibus. A quisquam facere aspernatur unde iste harum itaque
-            reiciendis, sapiente perspiciatis quasi, atque blanditiis eaque id
-            quia eveniet minima officiis.
-          </p>
-        </div>
+        <h1 class="text">
+          Nature!<br>
+          <br>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+          porro, repellendus, debitis commodi rerum perspiciatis enim minima
+          eligendi nisi aliquid voluptates veniam voluptate nemo repudiandae
+          fugit pariatur expedita quod neque.
+        </h1>
 
-        <img src="/images/fight.jpg" class="img3" alt="" />
+        <img src="/images/fight.jpg" alt="fight" class="img" />
       </div>
 
-      <div class="row2">
-        <div class="danger">
-          <h1>Danger!</h1>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi
-            voluptatem nesciunt voluptatibus, fuga ipsum soluta odio magni at
-            molestiae iure iusto temporibus inventore eius totam hic laborum aut
-            sint libero.
-          </p>
-        </div>
-
-        <img src="/images/willow.jpg" class="img2" alt="" />
-
-        <div class="chosen-one">
-          <h1>The chosen one package</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque
-            recusandae repellendus ratione vitae sequi, tempore accusantium
-            facilis exercitationem, fuga quibusdam ab distinctio non? Doloremque
-            pariatur sunt cum id quaerat qui?
-          </p>
-        </div>
+      <div class="right">
+        <h1 class="text-right">
+          Danger!<br>
+          <br>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus
+          soluta pariatur voluptatum possimus quasi, optio natus corporis qui
+          laudantium nesciunt sequi sed reiciendis esse fuga doloremque dolor
+          perferendis velit labore.
+        </h1>
+        <img src="/images/willow.jpg" alt="willow" class="img" />
+        <h1 class="text-right">
+          The Chosen One Package!!!!!<br>
+          <br>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates,
+          nesciunt iure enim in accusantium et neque quod perspiciatis similique
+          totam ratione animi tenetur impedit ab modi saepe vitae aperiam
+          voluptatem.
+        </h1>
       </div>
     </div>
-<br>
-    
-<div class="testimonial">
-  <h1 class="head">Testimonials
-    <hr>
-  </h1>
+    <h1 class="heading">Testimonials</h1>
+    <div class="container-testimonial">
+      <div class="first-testimonial">
+        <img src="/images/harry.jpg" alt="Harry" class="profile-img1" />
+        <h1 class="name">Harry Potter</h1>
+        <h1 class="testimonial-text">
+          Alumni <br>
+          1991-1997 <br>Lorem ipsum dolor sit amet consectetur, adipisicing
+          elit. Asperiores, officiis.
+        </h1>
+      </div>
 
+      <div class="second-testimonial">
+        <img src="/images/ron.jpg" alt="Ron" class="profile-img2" />
+        <h1 class="name">Ron Weasley</h1>
+        <h1 class="testimonial-text">
+          Alumni <br>
+          1991-1997 <br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, neque.
+        </h1>
+      </div>
 
-<p><span>Harry Potter</span></p> 
-
-  <img src="/images/harry.jpg" class="timg" alt="Harry Potter">
-<p>Alumni <br> 1991-1997</p>
-<div class="border" id="harry"> 
-  <p>From the moment Hagrid said "Yer a wizard Harry" I knew <br>hogwarts was the place for me!</p>
-</div></div>
-
-
-
-  <div class="testimonial">
-    
-    <p><span>Ron Weasley</span></p>
-    <br>
-    <img src="/images/ron.jpg" class="timg" alt="Ron Weasley">
-   <p> Alumni <br> 1991-1997</p>
-   <div class="border" id="rh">
-    <p>"Don’t let the muggles get you down." Hogwarts is the place to be!!</p> 
-</div></div>
-
-
-<div class="testimonial">
- 
-    <p><span>Hermione Granger</span></p>
-    <br>
-  <img src="/images/hermione.jpg" class="timg" alt="Hermione Granger">
- <p> Alumni <br> 1991-1997</p>
- <div class="border" id="rh"> 
-  <p>“Run like you have to get to the library.” Hogwarts is magical!!</p> 
-</div></div>
-
-
-
-
-
-
-
+      <div class="third-testimonial">
+        <img src="/images/hermione.jpg" alt="hermione" class="profile-img3" />
+        <h1 class="name">Hermione Granger</h1>
+        <h1 class="testimonial-text">
+          Alumni <br>
+          1991-1997 <br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis,
+          aspernatur.
+        </h1>
+      </div>
+    </div>
   </body>
 </html>
