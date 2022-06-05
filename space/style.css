@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: box;
+
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    height: 90vh;
+
+}
+
+.scene {
+    width: 100vw;
+    height: 100%;
+    background-image: url(images/background.png);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+.scene img {
+    position: absolute;
+}
+
+.moon {
+    bottom: -50px;
+    right: -40px;
+    width: 400px;
+    animation: moon-spin 0.5s infinite linear forwards;
+}
+
+.astronaut {
+    top: 200px;
+    right: 30px;
+    width: 200px;
+    animation: astronaut-move 10s forwards infinite;
+}
+
+.ship {
+    width: 300px;
+    height: 200px;
+    top: 350px;
+    animation: ship-move 10s forwards infinite;
+
+}
+
+.stars {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    animation: star-rotate 10s forwards infinite;
+}
+
+
+.alien {
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    right: 125px;
+    animation: alien-down 10s forwards infinite;
+}
+
+.comet {
+    left: 0px;
+    top: 300px;
+
+    animation: comet-move 10s forwards infinite;
+}
+
+@keyframes astronaut-move {
+    to {
+        transform:
+            translate(-300px, -100px) rotate(360deg);
+    }
+}
+
+
+@keyframes moon-spin {
+    to {
+        transform: rotate(60deg);
+    }
+
+}
+
+@keyframes stars-rotate {
+    to {
+        transform: rotate(60deg);
+    }
+
+}
+
+@keyframes ship-move {
+    to {
+        transform:
+            translate(800px, -600px);
+    }
+
+}
+
+
+
+@keyframes comet-move {
+    to {
+        transform: translate(800px, -200px)
+    }
+}
